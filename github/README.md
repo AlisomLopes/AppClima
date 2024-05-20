@@ -30,4 +30,4 @@ Este projeto é um app criado para mostrar o clima do local pesquisado. Inspirad
 <a href="https://www.youtube.com/watch?v=xuar1JNnV-w&t=748s" target="_blank">
 Vídeo parte 1</a>
 <a href="https://www.youtube.com/watch?v=A40fxZPIa-w&t=999s" target="_blank">
-Vídeo parte 1</a>
+Vídeo parte 2</a>
