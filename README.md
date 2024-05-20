@@ -1,2 +1,0 @@
-# AppClima
-Aplicativo de clima

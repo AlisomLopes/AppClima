@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Previsão do tempo</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Phosphor icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="stylesheet" href="./styles/global.css">
+</head>
+<body>
+  <div id="app">
+
+    <div class="background">
+      <img src="assets/background.jpg" alt="background do app">
+    </div>
+
+    <main class="container">
+      <section class="input_field">
+        <div class="input_local">
+          <i class="ph ph-map-pin"></i>
+          <input 
+            type="text" 
+            name="local" 
+            id="local" 
+            placeholder="Digite aqui o nome da localização!"
+            autocomplete="off"
+          />
+        </div>
+        <button type="button">
+          <i class="ph ph-magnifying-glass"></i>
+        </button>
+      </section>
+
+      <section class="infos_location">
+        <div id="icon_weather">
+          <img src="assets/favicon.ico" alt="" width="150px">
+        </div>
+        <div class="spans_info">
+          <span id="temperatura">Temperatura</span>
+          <span id="location_name">Local</span>
+        </div>
+      </section>
+
+      <section class="infos_weather">
+        <div class="spans_infoWeather">
+          <div class="umi_vent_container">
+            <i class="ph ph-drop-half-bottom"></i><span id="umidade">Umidade</span>
+          </div>
+          <div class="umi_vent_container">
+            <i class="ph ph-wind"></i><span id="vel_vento">Vel. do vento</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+  <script src="./index.js" defer></script>
+</body>
+</html>
