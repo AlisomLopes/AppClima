@@ -27,9 +27,7 @@ Este projeto é um app criado para mostrar o clima do local pesquisado. Inspirad
 ## 📺 Tutorial no Youtube
 
 <h3>Vídeo de referência</h3>
-<a href="https://www.youtube.com/watch?v=xuar1JNnV-w&t=748s" target="_blank" styles='  text-decoration: none;
-'>
-Vídeo parte 1</a><br />
-<a href="https://www.youtube.com/watch?v=A40fxZPIa-w&t=999s" target="_blank" styles='  text-decoration: none;
-'>
-Vídeo parte 2</a>
+<a href="https://www.youtube.com/watch?v=xuar1JNnV-w&t=748s" target="_blank" style="text-decoration: none;">
+Aplicativo de previsão do tempo com HTML, CSS e Javascript | PARTE 1</a><br />
+<a href="https://www.youtube.com/watch?v=A40fxZPIa-w&t=999s" target="_blank" style="text-decoration: none;">
+Aplicativo de previsão do tempo com HTML, CSS e Javascript | PARTE 2</a>
